@@ -121,6 +121,7 @@ const controller = {
       setTimeout(()=>{
         currentState = 'winning';
         winningTime.innerText = setTimer.counter;
+        setTimer.stopTimer();
         view.showBanner('winning');
         controller.resetGame();
       }, 500);
