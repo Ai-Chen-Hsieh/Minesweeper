@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="description"
+      content="Minesweeper game created with Javascript. enjoy it!!"
+    />
+    <meta name="author" content="Ai-Chen">
+    <link rel="icon" href="./asset/bomb.svg" type="image/png"/>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Minesweeper</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+          <div>
+            <h1 class="game-title">MINESWEEPER GAME</h1>
+            <div class='title-container'>
+              <span class='title-item timerTitle'>🕒 Timer <span class='timer'>0</span> s</span>
+              <span class='title-item bombTitle'>💣 Bombs <span class='bomb-box'></span></span>
+            </div>
+          </div>
+          <div class='table'></div>
+          <div class="banner">
+            <div class="board start-board d-none">
+              <div class="board__content start-board-content">
+                <div class="board__title ">Welcome to minesweeper game </div>
+                <p class="board__description">
+                  Press "Start" button to play
+                </p>
+                <button class="btn start__btn">Start!</button>
+              </div>
+            </div>
+            <div class="board winning-board d-none">
+              <div class="board__content winning-board-content">
+                <div class="board__title ">Good job! you win the game!</div>
+                <div class="final-time">Time: <span class="winning-time"> </span>s</div>
+                <p class="board__description">
+                  Press "play again" button to play
+                </p>
+                <button class="btn winning__btn">Play again!</button>
+              </div>
+            </div>
+            <div class="board lose-board d-none">
+              <div class="board__content lose-board-content">
+                <div class="board__title "> game over!!</div>
+                <div class="final-time">Time: <span class="lose-time"> </span>s</div>
+                <p class="board__description">
+                  Press "try again" button to play
+                </p>
+                <button class="btn lose__btn">Try again!</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>
