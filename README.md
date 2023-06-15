@@ -1,7 +1,7 @@
 
 # alpha-shop-project
 
-## [專案入口](https://minesweeper-rho-rosy.vercel.app/)
+#### [專案入口](https://minesweeper-rho-rosy.vercel.app/)
 ## 網頁畫面
 ![Minesweeper](https://github.com/Ai-Chen-Hsieh/Minesweeper/blob/main/asset/minesweeper.png)
 ![Minesweeper_start](https://github.com/Ai-Chen-Hsieh/Minesweeper/blob/main/asset/minesweeper_start.png)
