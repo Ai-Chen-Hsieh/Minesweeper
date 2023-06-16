@@ -1,5 +1,5 @@
 
-# alpha-shop-project
+# 踩地雷遊戲
 
 #### [專案入口](https://minesweeper-rho-rosy.vercel.app/)
 ## 網頁畫面
